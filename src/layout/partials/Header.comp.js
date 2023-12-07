@@ -16,13 +16,13 @@ export const Header = () => {
         <Navbar.Toggle aria-controls='basic-navbar-naw'/>
         <Navbar.Collapse id='basic-navbar-nav'>
             <Nav>
-                <Nav.Link href='/dashboard'>
+                <Nav.Link href='/dashboard' style={{'color':'white'}}>
                     Dashboard
                 </Nav.Link>
-                <Nav.Link href='/dashboard'>
+                <Nav.Link href='/dashboard' style={{'color':'white'}}>
                     Tickets
                 </Nav.Link>
-                <Nav.Link href='/dashboard'>
+                <Nav.Link href='/dashboard'style={{'color':'white'}}>
                     Logout
                 </Nav.Link>
             </Nav>

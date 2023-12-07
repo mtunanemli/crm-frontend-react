@@ -9,6 +9,7 @@
 
 header {
     grid-area: header;
+    color: white;
 }
 main{
     grid-area: main;
